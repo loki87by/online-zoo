@@ -1,0 +1,129 @@
+@media (max-width: 1919px) {
+  body{
+    width: 1200px;
+  }
+  .header{
+    width: calc(100vw - 200px);
+    margin: 0 calc((100vw - 1200px) / -2);
+    padding: 0 100px;
+  }
+  nav{
+    width: 740px;
+  }
+  .nav__links{
+    width: 480px;
+    margin-top: 17px;
+  }
+  .social{
+    margin-top: 20px;
+  }
+  section{
+    padding: 0 40px;
+  }
+  main{
+    padding: 0;
+    margin-bottom: 99px;
+  }
+  h2{
+    margin-bottom: 20px;
+    margin-top: 27px;
+  }
+  .main__canvas{
+    width: 1198px;
+    height: 777px;
+  }
+  .main__canvas > img{
+    width: 1198px;
+    height: 777px;
+  }
+  #alligator{
+    left: 245px;
+    bottom: 295px;
+  }
+  #alligator:hover{
+    bottom: 304px;
+  }
+  #coala{
+    right: 119px;
+    bottom: 116px;
+  }
+  #coala:hover{
+    bottom: 125px;
+  }
+  #panda{
+    right: 294px;
+    bottom: 343px;
+  }
+  #panda:hover{
+    bottom: 352px;
+  }
+  #tiger{
+    right: 242px;
+    bottom: 206px;
+  }
+  #tiger:hover{
+    bottom: 215px;
+  }
+  #gorilla{
+    right: 515px;
+    bottom: 243px;
+  }
+  #gorilla:hover{
+    bottom: 252px;
+  }
+  #lion{
+    left: 481px;
+    bottom: 273px;
+  }
+  #lion:hover{
+    bottom: 282px;
+  }
+  #lemur{
+    right: 425px;
+    bottom: 142px;
+  }
+  #lemur:hover{
+    bottom: 151px;
+  }
+  #eagles{
+    left: 127px;
+    bottom: 315px;
+  }
+  #eagles:hover{
+    bottom: 324px;
+  }
+  .footer{
+    width: 100vw;
+    margin: 0 calc((100vw - 1200px) / -2);
+    padding: 18px 0 0;
+  }
+  .footer__nav{
+    padding: 5px 38px 71px;
+  }
+  .footer__nav-imgs{
+    width: 347px;
+    margin-top: 52px;
+  }
+  .footer__nav-links{
+    width: 344px;
+    margin-top: 50px;
+  }
+  button{
+    width: 359px;
+    height: 74px;
+    margin-top: 45px;
+  }
+  .footer__additionally{
+    padding: 0 40px;
+  }
+  .footer__additionally-copirights{
+    width: 442px;
+    margin-left: 5px;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+  }
+  .social_footer{
+    margin-right: 4px;
+    margin-top: 20px;
+  }
+}

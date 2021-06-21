@@ -1,0 +1,294 @@
+@media (max-width: 1199px) {
+  body{
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header{
+    width: calc(100vw - 20px);
+    padding: 0 0 0 20px;
+    margin: 0 calc((100vw - 1200px) / -2);
+  }
+  h2{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+  .main__canvas{
+    width: 640px;
+    height: 415px;
+    margin-top: 20px;
+  }
+  .main__canvas > img{
+    width: 640px;
+    height: 415px;
+  }
+  #alligator{
+    left: 105px;
+    bottom: 125px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43);
+  }
+  #alligator:hover{
+    bottom: 129px;
+  }
+  #coala{
+    right: 54px;
+    bottom: 27px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43);
+  }
+  #coala:hover{
+    bottom: 31px;
+  }
+  #panda{
+    right: 137px;
+    bottom: 144px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43);
+  }
+  #panda:hover{
+    bottom: 148px;
+  }
+  #tiger{
+    right: 105px;
+    bottom: 69px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43);
+  }
+  #tiger:hover{
+    bottom: 73px;
+  }
+  #gorilla{
+    right: 255px;
+    bottom: 93px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43);
+  }
+  #gorilla:hover{
+    bottom: 97px;
+  }
+  #lion{
+    left: 237px;
+    bottom: 103px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43);
+  }
+  #lion:hover{
+    bottom: 107px;
+  }
+  #lemur{
+    right: 206px;
+    bottom: 38px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43)
+  }
+  #lemur:hover{
+    bottom: 42px;
+  }
+  #eagles{
+    left: 43px;
+    bottom: 132px;
+    -webkit-transform: scale(.43);
+        -ms-transform: scale(.43);
+            transform: scale(.43);
+  }
+  #eagles:hover{
+    bottom: 136px;
+  }
+  .footer{
+    height: 497px;
+    padding: 48px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__nav{
+    position: relative;
+    width: 445px;
+    min-height: 246px;
+    padding: 0 96px 51px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__nav-imgs{
+    width: 100%;
+    margin-top: 0;
+  }
+  .footer__nav-imgs > a{
+    margin-top: 2px;
+  }
+  .footer__nav-links{
+    width: 100%;
+    margin-top: 29px;
+    margin-left: 1px;
+    margin-right: 1px;
+    letter-spacing: 0.01em;
+  }
+  .nav-links_footer{
+    visibility: visible;
+  }
+  button{
+    width: 360px;
+    height: 74px;
+    margin-top: 28px;
+    margin-right: 5px;
+    padding: 26px 27px 26px 27px;
+    letter-spacing: 0.02em;
+  }
+  .footer__additionally{
+    width: 444px;
+    height: 199px;
+    padding: 49px 98px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__additionally-copirights{
+    width: 444px;
+    margin-left: 1px;
+    margin-bottom: 6px;
+  }
+  .footer__additionally-copirights > li > p{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .social_footer{
+    width: 220px;
+    margin: 0;
+    visibility: visible;
+  }
+  .social_footer > li:first-of-type{
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 865px) {
+  nav {
+    width: max-content;
+  }
+  .social {
+    margin-left: 10px;
+  }
+  .nav__links {
+    width: max-content;
+  }
+  .nav__link {
+    margin-right: 10px;
+  }
+  .nav-links_footer{
+    width: 480px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    position: fixed;
+    z-index: 1;
+  }
+  .header__mobile-button {
+    position: absolute;
+    right: 42px;
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
+    border-radius: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: url("../../assets/icons/hamburger.svg");
+  }
+  .header__mobile-button_opened {
+    z-index: 2;
+    background: url("../../assets/icons/close.svg");
+  }
+  .header__mobile-button:hover,
+  .header__mobile-button:focus,
+  .header__mobile-button:active{
+    background-color: transparent;
+    border: none;
+  }
+  .nav_mobile {
+    visibility: visible;
+  }
+  .nav__links {
+    visibility: hidden;
+  }
+  .nav__links_opened {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: -18px;
+    width: 311px;
+    height: 754px;
+    padding-top: 150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    visibility: visible;
+    background: #20113d;
+  }
+  .nav__links_opened > li {
+    margin-bottom: 50px;
+  }
+  .nav__link{
+    color: #fff;
+  }
+  .nav__link_active {
+    cursor: default;
+    color: #00a092;
+  }
+  .social {
+    visibility: hidden;
+  }
+  main {
+    margin-top: 110px;
+  }
+  .nav-links_footer{
+    visibility: visible;
+  }
+  .social_footer{
+    visibility: visible;
+  }
+}

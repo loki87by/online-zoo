@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../../assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../normalize.css">
+  <link rel="stylesheet" href="../montserrat.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media1200.css">
+  <link rel="stylesheet" href="media640.css">
+  <link rel="stylesheet" href="media320.css">
+  <meta name="author" content="Alexey Akulich">
+  <title>Online-Zoo</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <a href="../main/index.html">
+      <img class="header__logo" src="../../assets/icons/Logo.svg" alt="logo">
+      <h1 style="display: none; width: 0">Online Zoo</h1>
+    </a>
+    <button class="header__mobile-button" type="button"></button>
+    <nav>
+      <ul class="nav__links">
+        <li>
+          <a class="nav__link" href="../main/index.html">about</a>
+        </li>
+        <li>
+          <a class="nav__link" href="../map/map.html">map</a>
+        </li>
+        <li>
+          <a class="nav__link nav__link_active" href="#">zoos</a>
+        </li>
+        <li>
+          <a class="nav__link" href="../contacts/contacts.html">contact us</a>
+        </li>
+        <li>
+          <a class="nav__link" href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">design</a>
+        </li>
+      </ul>
+      <ul class="social">
+        <li class="nav__link">
+          <a href="https://www.youtube.com">
+            <img class="social__icon" src="../../assets/icons/Youtube.svg" alt="youtube">
+          </a>
+        </li>
+        <li class="nav__link">
+          <a href="https://www.instagram.com">
+            <img class="social__icon" src="../../assets/icons/Instagram.svg" alt="instagram">
+          </a>
+        </li>
+        <li class="nav__link">
+          <a href="https://www.facebook.com">
+            <img class="social__icon" src="../../assets/icons/Facebook.svg" alt="facebook">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <template id="main">
+      <div class="template">
+      <section class="cams">
+        <aside>
+          <button class="aside__button">
+            <div class="aside__label">
+              <p class="aside__label-text">live</p>
+              <img class="cams__icon" src="../../assets/icons/Vector.svg" alt="camera">
+            </div>
+            <img class="aside__button-img" src="../../assets/icons/open.svg" alt="open sidebar">
+          </button>
+          <div id="panda" class="aside__element">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/Mini-Panda.svg#pand"></use>
+            </svg>
+            <p class="aside__text">Watch live from China's Panda Center</p>
+          </div>
+          <div id="eagles" class="aside__element">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/Mini-Eagle.svg#eagl"></use>
+            </svg>
+            <p class="aside__text">Watch The Bald Eagles Nest from West End cam</p>
+          </div>
+          <div id="gorilla" class="aside__element">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/Mini-Gorilla.svg#gori"></use>
+            </svg>
+            <p class="aside__text">Livestream from Gorilla Forest Corridor habitat cam</p>
+          </div>
+          <div id="lemur" class="aside__element">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/Mini-Lemur.svg#lemu"></use>
+            </svg>
+            <p class="aside__text">The ring-tailed lemurs play in Madagascar, Lemuria Land</p>
+          </div>
+          <div id="alligator" class="aside__element aside__element_hide">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/Mini-allig.svg#alig"></use>
+            </svg>
+            <p class="aside__text">Watch live from Alligator mississippiensis Center</p>
+          </div>
+          <div id="lion" class="aside__element aside__element_hide">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/Mini-Lion.svg#lion"></use>
+            </svg>
+            <p class="aside__text">Watch realy Lion King. Not Disney</p>
+          </div>
+          <div id="tiger" class="aside__element aside__element_hide">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/Mini-tiger.svg#tigr"></use>
+            </svg>
+            <p class="aside__text">Donate to the weed baby</p>
+          </div>
+          <div id="koala" class="aside__element aside__element_hide">
+            <svg>
+              <use class="aside__icon aside__icon_hide" xlink:href="../../assets/icons/coala-min.svg#koa"></use>
+            </svg>
+            <p class="aside__text">Very cute striped pussy ))</p>
+          </div>
+          <button class="aside__button">
+            <svg class="aside__slider-button" width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.34091 0L0 1.36504L7.5 9L15 1.36504L13.6591 0L7.5 6.26992L1.34091 0Z" fill="white"/>
+            </svg>
+            </button>
+        </aside>
+        <h2 class="cams__title">live panda cams</h2>
+        <button class="cams__button" type="button">
+          Donate now
+          <img class="cams__button-img" src="../../assets/icons/arrow.svg" alt="Donate now">
+        </button>
+        <iframe width="1404" height="788" src="https://www.youtube.com/embed/GJ6yezBx3z4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <div class="cams__blocker cams__blocker_frame">
+          <img src="../../assets/icons/LogoWhite.svg" alt="online zoo logo">
+        </div>
+        <h3 class="cams__text">More live views</h3>
+        <div class="cams__slider">
+          <button class="cams__slider-btn cams__slider-btn_left" disabled type="button"></button>
+          <div class="cams__slide">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM1</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <div class="cams__slide">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM2</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <div class="cams__slide">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/65JHo3Cy2tY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM3</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <div class="cams__slide cams__slide_disabled">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM4</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <div class="cams__slide cams__slide_disabled">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM5</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <div class="cams__slide cams__slide_disabled">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM6</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <div class="cams__slide cams__slide_disabled">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM7</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <div class="cams__slide cams__slide_disabled">
+            <iframe class="cams__slide-video" width="320" height="209" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cams__blocker cams__blocker_slide">
+              <span class="cams__slide-label">
+                <h4>CAM8</h4>
+                <img class="cams__slide-icon" src="../../assets/icons/Vector.svg" alt="camera">
+              </span>
+            </div>
+          </div>
+          <button class="cams__slider-btn cams__slider-btn_right" type="button"></button>
+        </div>
+      </section>
+      <section class="donate">
+        <h3>make the Bamboo Donation!</h3>
+        <h4 class="donate__form-title">Quick Donate</h4>
+        <p class="donate__text">Our process for bamboo donations first starts with a site evaluation. It is important that our team sees where the bamboo is growing, then determining if the bamboo is a species that our animals are currently eating. Thank you for your interest in donating bamboo for our pandas.</p>
+        <form class="donate__form">
+          <p class="donate__form-text">$ </p>
+          <input class="donate__form-input" type="number" placeholder="Donation Amount" value="">
+          <button class="donate__form-btn">
+            <img src="../../assets/icons/arrow.svg" alt="Go to pay">
+          </button>
+        </form>
+      </section>
+      <section class="info">
+        <article class="info__note">
+          <h3 class="info__note-title">did you know?</h3>
+          <h4 class="info__note-text">Pandas are often seen eating in a relaxed sitting posture, with their hind legs stretched out before them. They may appear sedentary, but they are skilled tree-climbers and efficient swimmers.</h4>
+        </article>
+        <article class="info__description">
+          <span><h4 class="info__description-title">Common name:</h4><p>Giant Panda</p></span>
+          <span><h4 class="info__description-title">Scientific name:</h4><p>Ailuropoda melanoleuca</p></span>
+          <span><h4 class="info__description-title">Type:</h4><p>Herbivore</p></span>
+          <span><h4 class="info__description-title">Size:</h4><p>4 to 5 feet</p></span>
+          <span><h4 class="info__description-title">Diet:</h4><p>Omnivore</p></span>
+          <span><h4 class="info__description-title">Habitat:</h4><p>Forests</p></span>
+          <span><h4 class="info__description-title">Range:</h4><p>Eastern Asia</p></span>
+          <img class="info__description-image" src="../../assets/images/minipanda.jpg" alt="panda">
+          <button class="info__description-button" type="button">
+            VIEW map
+            <img class="info__description-button-img" src="../../assets/icons/orange-arrow.svg" alt="VIEW map">
+          </button>
+          <p class="info__description-text">Giant pandas are very unusual animals that eat almost exclusively bamboo, which is very low in nutrients. Because of this, they have many unique adaptations for their low-energy lifestyle. Giant pandas are solitary. They have a highly developed sense of smell that males use to avoid each other and to find females for mating in the spring. After a five-month pregnancy, females give birth to a cub or two, though they cannot care for both twins. The blind infants weigh only 5 ounces at birth and cannot crawl until they reach three months of age. They are born white, and develop their much loved coloring later. Habitat loss is the primary threat to this species. Its popularity around the world has helped the giant panda become the focus of successful conservation programs.</p>
+        </article>
+      </section>
+    </div>
+    </template>
+  </main>
+  <footer class="footer">
+    <div class="footer__nav">
+      <div class="footer__nav-imgs">
+        <a href="../main/index.html">
+          <img src="../../assets/icons/LogoWhite.svg" alt="online zoo logo">
+        </a>
+        <img src="../../assets/icons/Yem_Digital.svg" alt="yem digital logo" title="Yem Digital">
+        <img src="../../assets/icons/rss.svg" alt="rs school logo" title="Rolling Scopes School">
+      </div>
+      <nav class="footer__nav-links">
+        <ul class="nav__links nav-links_footer">
+          <li>
+            <a class="footer-link" href="../main/index.html">about</a>
+          </li>
+          <li>
+            <a class="footer-link" href="../map/map.html">map</a>
+          </li>
+          <li>
+            <a class="footer-link" href="#header">zoos</a>
+          </li>
+          <li>
+            <a class="footer-link" href="../contacts/contacts.html">contact us</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="footer__donate-button" type="button">
+        Donate for volunteers
+        <img src="../../assets/icons/arrow.svg" alt="arrow">
+      </button>
+    </div>
+    <div class="footer__additionally">
+      <ul class="footer__additionally-copirights">
+        <li>
+          <p class="footer__additionally-copiright">© 2021 DinaK</p>
+        </li>
+        <li>
+          <p class="footer__additionally-copiright">© Yem Digital</p>
+        </li>
+        <li>
+          <p class="footer__additionally-copiright">© RSSchool</p>
+        </li>
+      </ul>
+      <ul class="social social_footer">
+        <li class="nav__link nav__link_active">
+          <a href="https://www.youtube.com">
+            <img class="social__icon" src="../../assets/icons/Youtube.svg" alt="youtube">
+          </a>
+        </li>
+        <li class="nav__link">
+          <a href="https://www.instagram.com">
+            <img class="social__icon" src="../../assets/icons/Instagram.svg" alt="instagram">
+          </a>
+        </li>
+        <li class="nav__link">
+          <a href="https://www.facebook.com">
+            <img class="social__icon" src="../../assets/icons/Facebook.svg" alt="facebook">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script type="module" src="zoos.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@media (max-width: 1919px) {
+  body{
+    width: 1200px;
+  }
+  .header{
+    width: calc(100vw - 200px);
+    margin: 0 calc((100vw - 1200px) / -2);
+    padding: 0 100px;
+  }
+  nav{
+    width: 740px;
+  }
+  .nav__links{
+    width: 477px;
+    margin-top: 17px;
+  }
+  .social{
+    margin-top: 20px;
+  }
+  .main{
+    padding: 0;
+    overflow: hidden;
+  }
+  section{
+    padding: 50px;
+    padding-left: 223px;
+    margin-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__text{
+    width: 835px;
+    margin-bottom: 55px;
+    text-align: justify;
+  }
+  .main__title{
+    margin: 0 170px 38px;
+  }
+  form{
+    width: 740px;
+    margin-left: 8px;
+  }
+  label:last-of-type{
+    margin-bottom: 48px;
+  }
+  .main__submit{
+    letter-spacing: 0.017em;
+  }
+  .footer{
+    width: 100vw;
+    height: 289px;
+    padding: 20px 0;
+    margin: 0 calc((100vw - 1200px) / -2);
+  }
+  .footer__nav{
+    padding: 6px 38px 70px;
+  }
+  .footer__nav-imgs{
+    width: 344px;
+    margin-top: 45px;
+    margin-left: 2px;
+  }
+  .footer__nav-links{
+    width: 344px;
+    margin-top: 43px;
+    margin-left: -4px;
+  }
+  .footer__donate-button{
+    margin-top: 43px;
+    letter-spacing: 0.018em;
+  }
+  .footer__additionally{
+    padding: 0 40px;
+  }
+  .footer__additionally-copirights{
+    margin-left: 0;
+  }
+  .social_footer{
+    margin-top: 18px;
+  }
+}
