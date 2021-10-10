@@ -174,19 +174,19 @@ input:focus, input:active{
   position: absolute;
   color: #f58021;
 }
-.main__inpur::-webkit-input-placeholder {
+.main__input::-webkit-input-placeholder {
   color: #969696;
 }
-.main__inpur::-moz-placeholder {
+.main__input::-moz-placeholder {
   color: #969696;
 }
-.main__inpur:-ms-input-placeholder {
+.main__input:-ms-input-placeholder {
   color: #969696;
 }
-.main__inpur::-ms-input-placeholder {
+.main__input::-ms-input-placeholder {
   color: #969696;
 }
-.main__inpur::placeholder {
+.main__input::placeholder {
   color: #969696;
 }
 textarea{
